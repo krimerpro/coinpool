@@ -1,90 +1,73 @@
-<!-- Footer -->
-<footer class="bg-off-white footer">
-    <div class="footer-lower bg-blue position-relative">
-        <div class="container">
-            <div class="footer-copyright-text footer-copyright-text-white">
-                <p>Copyright ©2023 Erudex. Designed & Developed By <span style="color:blue;font-weight:bold">Erudex Team</span></a></p>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- Footer -->
-
-<!-- Scroll-top -->
-<div class="scroll-top" id="scrolltop">
-    <div class="scroll-top-inner">
-        <i class="icofont-long-arrow-up"></i>
-    </div>
+<div class="clear"></div>
+   <!--footer Start-->
+   <footer class="platinum-footer">
+       <div class="footer-widget-area text-center">
+           <div class="container">
+               <div class="row justify-content-md-center">
+                   <div class="col-lg-8">
+                       <div class="widget-area">
+                           <div class="widget widget-html">
+                               <div class="footer-logo">
+                                   <a href="#" title=""><img src="{{ asset('images/section-1/w-logo.png') }}" alt="Cp Platinum"></a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-12 footer-line" style="margin-top: 43px;"></div>
+       <div class="copyright-area">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="copy-text">© 2023 Coinpool. Design & Developed by <a href="#">COINPOOL TEAM</a></div>
+                   </div>
+                   <div class="col-md-6">
+                    <div class="widget-area">
+                           <div class="widget widget-html text-center">
+                               <div class="socials">
+                                   <ul>
+                                       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                                       <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                        </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+   <!--footer end-->
 </div>
-<!-- Scroll-top -->
+<!--Main Wrapper End-->
 
-<!-- Topbar-side-modal -->
-<div class="side-modal-wrapper">
-    <div class="side-modal">
-        <div class="side-modal-header">
-            <div class="side-modal-logo">
-                <a href="#"><img src="{{ asset('images/logo.png') }}" alt="logo"></a>
-            </div>
-            <div class="side-modal-close">
-                <i class="icofont-close"></i>
-            </div>
-        </div>
-        <div class="side-modal-body">
-            <div class="sidebar-info-content">
-                <h3>Follow Us</h3>
-                <ul class="social-list">
-                    <li>
-                        <a href="https://twitter.com/ErudexAI" target="_blank"><i class="icofont-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/ErudexAiPortal" target="_blank"><i class="icofont-paper-plane"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Topbar-side-modal -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/circle-progress.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/onpagescroll.js') }}"></script>
+<script src="{{ asset('js/wow.min.js') }}"></script>
+<script src="{{ asset('js/jquery.countdown.js') }}"></script>
+<script src="{{ asset('js/owl.carousel.js') }}"></script>
+<script src="{{ asset('js/slick.min.js') }}"></script>
+<script src="{{ asset('js/Chart.js') }}"></script>
+<script src="{{ asset('js/chart-function.js') }}"></script>
+<script src="{{ asset('js/fancybox/jquery.fancybox.min.js') }}"></script>
+<script src="{{ asset('js/script2.js') }}"></script>
+<script src="{{ asset('js/particles.js') }}"></script>
+<script src="{{ asset('js/gold-app2.js') }}"></script>
+   <script type="text/javascript">
+   jQuery(document).ready(function(){
+       setTimeout(function(){
+           jQuery('.coinpool-animation').addClass('start-animation');
+       }, 1000);
+       setTimeout(function(){
+           jQuery('.coinpool-animation .lines').addClass('active');
+       }, 2000);
+   });
 
-<!-- Search-overlay -->
-<div class="search-overlay">
-    <div class="search-close">
-        <i class="icofont-close"></i>
-    </div>
-    <div class="search-form-area">
-        <div class="search-area-logo">
-            <a href="#">
-                <img src="{{ asset('images/logo-white.png') }}" alt="logo">
-            </a>
-        </div>
-        <form>
-            <div class="form-group search-form-group">
-                <input type="text" placeholder="Search..." class="form-control" autofocus="autofocus">
-                <button>
-                    <i class="icofont-search-1"></i>
-                </button>
-            </div>
-        </form>
-    </div>
-</div>
-<!-- Search-overlay -->
 
-<!-- essential js -->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('/js/jquery.min.js') }}"></script>
-<script src="{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
-<!-- magnific popup js -->
-<script src="{{ asset('/js/jquery.magnific-popup.min.js') }}"></script>
-<!-- owl carousel js -->
-<script src="{{ asset('/js/owl.carousel.min.js') }}"></script>
-<!-- nice select js -->
-<script src="{{ asset('/js/jquery.nice-select.min.js') }}"></script>
-<!-- form ajazchimp js -->
-<script src="{{ asset('/js/jquery.ajaxchimp.min.js') }}"></script>
-<!-- form validator js  -->
-<script src="{{ asset('/js/form-validator.min.js') }}"></script>
-<!-- contact form js -->
-<script src="{{ asset('/js/contact-form-script.js') }}"></script>
-<!-- meanmenu js -->
-<script src="{{ asset('/js/jquery.meanmenu.min.js') }}"></script>
-<!-- main js -->
-<script src="{{ asset('/js/script.js') }}"></script>
+</script>
