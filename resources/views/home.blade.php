@@ -27,7 +27,7 @@
                     <p class="lead">Advanced protocol based on smart chain ecosystem</p>
                     <div class="hero-btns">
                         <a href="https://t.me/CoinpoolProtocol" class="btn">JOIN US</a>
-                        <a href="https://poocoin.app/tokens/0xd43aFDa6c1B736461e7AAc829F551A8Ce7F5A5d7" class="btn btn3">POOCOIN CHART</a>
+                        <a href="https://poocoin.app/tokens/0x" class="btn btn3">POOCOIN CHART</a>
                     </div>
                 </div>
             </div>
